@@ -86,7 +86,7 @@ export function ProductPage({ slug }: { slug: string }) {
         <div className="mt-6 grid gap-10 lg:grid-cols-2 lg:gap-16">
           {/* GALLERY */}
           <div className="lg:sticky lg:top-24 lg:self-start">
-            <div className="relative aspect-square overflow-hidden rounded-2xl bg-sand-100">
+            <div className="relative z-0 aspect-square overflow-hidden rounded-2xl bg-sand-100">
               <img src={gallery[activeImg]} alt={product.name} className="h-full w-full object-cover" />
               {disc && (
                 <span className="absolute left-4 top-4 rounded-full bg-clay-500 px-3 py-1 text-xs font-semibold text-white">

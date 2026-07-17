@@ -42,7 +42,7 @@ export function Header() {
       </div>
 
       <header
-        className={` sticky top-0 z-80 bg-sand-50/90 backdrop-blur transition-shadow duration-300 ${
+        className={`sticky top-0 z-50  shadow-md bg-sand-50/90 backdrop-blur transition-shadow duration-300 ${
           scrolled ? 'shadow-soft' : ''
         }`}
       >
